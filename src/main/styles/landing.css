@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Animations  */
+
+@keyframes fade-in {
+    0%   {opacity: 0;}
+    25%  {opacity: 0.25;}
+    50%  {opacity: 0.50;}
+    100% {opacity: 1;}
+}
+
+@keyframes floatup {
+    0%   {top:100px;}
+    25%  {top:75px;}
+    50%  {top:50px;}
+    75%  {top:25px;}
+    100% {top:0px;}
+}
+
+.fadein-animation{
+    animation-name: fade-in;
+    animation-duration: 5s;
+}
+
+  .floatup-animation{  
+    position: relative;
+    animation-name: floatup;
+    animation-duration: 3s;
+}
+
+
+section{
+    min-height: 100vh;
+}
+
+/* Fots  */
+
+.font-anton{
+    font-family: 'Anton', sans-serif;
+}
+
+.font-playfair-display{
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* Custom Styling  */
+
+.intro-section{
+    background-image: url(../includes/svg/blob.svg);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.intro-header-text{
+    color: #242424;
+}
+
+
+.intro-info-div{
+    font-weight: bold;
+}
+
+.intro-get-started{
+    background-color: #7aadff;
+    transition: all 500ms ease-in-out;
+}
+
+.intro-get-started:hover{
+    background: none;
+    color: #7aadff;  
+    border: 1px solid #7aadff;
+    transform: scale(1.12);
+}
+
+.sectiontwo{
+    background-size: 600px;
+}
