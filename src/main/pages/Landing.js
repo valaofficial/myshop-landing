@@ -21,12 +21,12 @@ function IntroSection() {
         <Navbar/>
         <section className='flex flex-col justify-center text-center items-center intro-section p-6'>
             <div className='header-text-div min-w-md max-w-xl'>
-            <h1 className='leading-normal lg:text-7xl text-5xl text-center font-anton intro-header-text fadein-animation'>Own a Store Online With MyShop</h1>
+            <h1 className='leading-normal lg:text-7xl text-5xl text-center font-anton intro-header-text fadein-animation'>Own a Store Online With OwnShop</h1>
             </div>
             <div className='intro-info-div mt-6 floatup-animation'>
                 <p>
                     Create your very own store easily for FREE, 
-                    just by signing up to MyShop and start selling
+                    just by signing up to OwnShop and start selling
                     online
                 </p>
             </div>
@@ -49,7 +49,7 @@ function IntroSection() {
         </h3>
 
         <p className='mt-6 max-w-md'>
-            Create Your Store, Upload Your Products, Respond to Customer Feedback all on MyShop
+            Create Your Store, Upload Your Products, Respond to Customer Feedback all on OwnShop
         </p>
         </div>
         <div>
@@ -128,7 +128,7 @@ function IntroSection() {
         <div>
             <div>
                 <h3 className='font-playfair-display text-5xl lg:max-w-lg max-w-md'>
-                    What Are You Waiting For, Join Us and Grow With MyShop
+                    What Are You Waiting For, Join Us and Grow With OwnShop
                 </h3>
             </div>
             <div>
