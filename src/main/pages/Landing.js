@@ -41,7 +41,7 @@ function IntroSection() {
 
   function SectionTwo() {
     return (
-      <section className='fadein-animation flex lg:flex-row lg:text-left flex-col text-center p-12 lg:justify-around items-center '>
+      <section className='fadein-animation flex lg:flex-row lg:text-left flex-col-reverse text-center p-12 lg:justify-around items-center '>
         <div>
         <div>
         <h3 className='font-playfair-display text-4xl lg:max-w-sm max-w-md'>
@@ -58,7 +58,7 @@ function IntroSection() {
             </div>
         </div>
         </div>
-        <div className='lg:mt-6 mt-12'>
+        <div className='lg:mt-6 mb-12'>
             <img src='/images/landing-1.png' alt='Landing One'/>
         </div>
       </section>
@@ -96,7 +96,7 @@ function IntroSection() {
 
   function SectionFour() {
     return (
-      <section className='fadein-animation flex lg:flex-row lg:text-left flex-col text-center p-12 lg:justify-around items-center '>
+      <section className='fadein-animation flex lg:flex-row lg:text-left flex-col-reverse text-center p-12 lg:justify-around items-center '>
         <div>
             <div>
                 <h3 className='font-playfair-display text-4xl lg:max-w-sm max-w-md'>
@@ -124,7 +124,7 @@ function IntroSection() {
 
   function Footer() {
     return (
-      <section className='flex flex-col justify-center text-center p-12 items-center '>
+      <section className='flex flex-col justify-center text-center p-12 items-center h-96 min-h-fit'>
         <div>
             <div>
                 <h3 className='font-playfair-display text-5xl lg:max-w-lg max-w-md'>
